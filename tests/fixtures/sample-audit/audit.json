@@ -1,0 +1,151 @@
+{
+ "output_name": "harborpine-audit",
+ "lang": "en",
+ "audit_date": "2026-10-29",
+ "recipient": "client",
+ "include_closing_cta": true,
+ "brand": {
+  "name": "Harbor & Pine",
+  "site": "https://www.harborpine.example",
+  "logo": "media/harborpine-logo.svg",
+  "cover_image": {
+   "path": "media/brand/cover.jpg",
+   "max_w": 800,
+   "quality": 86
+  }
+ },
+ "tokens": {
+  "--accent": "#1F5C4A",
+  "--ink": "#1E2A28",
+  "--ink-2": "#3A4744",
+  "--muted": "#5E6B68",
+  "--line": "#D9D4C7",
+  "--line-2": "#ECE8DE",
+  "--panel": "#F3F1EA",
+  "--paper": "#FFFFFF",
+  "--axis": "#9AA3A0",
+  "--on-dark": "#F3F1EA",
+  "--font": "Georgia, 'Times New Roman', serif",
+  "--cond": "system-ui, -apple-system, 'Segoe UI', sans-serif",
+  "--display": "Georgia, 'Times New Roman', serif"
+ },
+ "fonts": {
+  "dir": "media/assets/fonts",
+  "manifest": "manifest.txt",
+  "subsets": [
+   "latin"
+  ],
+  "include": []
+ },
+ "sections": {
+  "grade_order": [
+   "sales",
+   "design",
+   "search",
+   "speed",
+   "trust"
+  ],
+  "search": "search",
+  "speed": "speed",
+  "legal": "trust"
+ },
+ "shots_dir": "media/shots",
+ "shots": {
+  "S1": [
+   [
+    "m-02-checkout.jpg",
+    "m"
+   ],
+   [
+    "d-02-checkout.jpg",
+    "d"
+   ]
+  ],
+  "D1": [
+   [
+    "m-01-home.jpg",
+    "m"
+   ]
+  ],
+  "L2": [
+   [
+    "d-01-home.jpg",
+    "d"
+   ]
+  ]
+ },
+ "speed": {
+  "fcp_s": [
+   2.1,
+   2.6
+  ],
+  "lcp_s": [
+   4.4,
+   5.1
+  ],
+  "js_mb": 1.8
+ },
+ "perf_urls": {
+  "home": "https://www.harborpine.example/"
+ },
+ "season_keywords": [
+  "tea gift box",
+  "chai tea"
+ ],
+ "keywords": {
+  "file_prefix": "harborpine",
+  "google_position_field": "position",
+  "clusters": {
+   "Tea": "tea",
+   "Chai": "chai",
+   "Gifts": "gifts",
+   "Guides": "guides"
+  },
+  "p1_priorities": [
+   "P1"
+  ],
+  "appendix_priorities": [
+   "P2",
+   "P3"
+  ],
+  "p1_order": [
+   "tea",
+   "chai",
+   "gifts"
+  ],
+  "appendix_order": [
+   "tea",
+   "gifts",
+   "chai",
+   "guides"
+  ],
+  "target_rules": [
+   {
+    "cluster": "Gifts",
+    "target": "gifts"
+   },
+   {
+    "contains": [
+     "chai"
+    ],
+    "target": "chai"
+   }
+  ],
+  "target_default": "tea",
+  "target_paths": {
+   "tea": "/tea/",
+   "chai": "/tea/lighthouse-chai/",
+   "gifts": "/gifts/"
+  },
+  "strengths_exclude": [
+   "harbor and pine"
+  ],
+  "strengths_count": 25,
+  "totals": {
+   "organic_keywords": 6,
+   "top3": 2,
+   "traffic_est": 152,
+   "source": "Invented keyword tool 2026-10-29"
+  }
+ }
+}

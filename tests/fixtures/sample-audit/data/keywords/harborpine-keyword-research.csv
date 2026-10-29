@@ -1,0 +1,11 @@
+keyword,volume,kd,priority,cluster,position,competitor,competitor_position
+loose leaf tea,2400,38,P1,Tea,14,teahouse.example,2
+green tea online,1300,31,P1,Tea,,leafandcup.example,1
+chai tea,1900,44,P1,Chai,22,spicebox.example,3
+tea gift box,880,27,P1,Gifts,9,giftcrate.example,1
+organic black tea,720,29,P2,Tea,18,teahouse.example,4
+pine needle tea,320,12,P2,Tea,3,,
+tea advent calendar,1600,35,P2,Gifts,,giftcrate.example,2
+chai latte powder,590,21,P3,Chai,,spicebox.example,1
+how to brew loose leaf tea,480,18,P3,Guides,27,teahouse.example,5
+harbor and pine,90,,brand,Brand,1,,

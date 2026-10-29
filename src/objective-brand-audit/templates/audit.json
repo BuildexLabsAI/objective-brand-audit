@@ -1,0 +1,153 @@
+{
+ "output_name": "<slug>-audit",
+ "lang": "en",
+ "audit_date": "<YYYY-MM-DD>",
+ "recipient": "<friend|client>",
+ "include_closing_cta": false,
+ "brand": {
+  "name": "<Brand name as on the logo>",
+  "site": "https://www.<domain>",
+  "logo": "media/<brand>-logo.svg",
+  "cover_image": {
+   "path": "media/brand/<photo from the site>.jpg",
+   "max_w": 800,
+   "quality": 86
+  },
+  "bar_image": {
+   "path": "media/brand/<texture or header background>.jpg",
+   "max_w": 1600,
+   "quality": 70
+  }
+ },
+ "tokens": {
+  "--accent": "<brand main colour, 6-digit hex>",
+  "--ink": "<brand text colour, 6-digit hex>",
+  "--ink-2": "<softer text>",
+  "--muted": "<captions>",
+  "--line": "<borders>",
+  "--line-2": "<faint borders>",
+  "--panel": "<light panel background>",
+  "--paper": "#FFFFFF",
+  "--axis": "<chart axis grey>",
+  "--on-dark": "<light text on the dark closing block>",
+  "--font": "'<Body font>', system-ui, -apple-system, 'Segoe UI', sans-serif",
+  "--cond": "'<Heading font>', '<Body font>', system-ui, sans-serif",
+  "--display": "'<Display font>', '<Heading font>', system-ui, sans-serif"
+ },
+ "fonts": {
+  "dir": "media/assets/fonts",
+  "manifest": "manifest.txt",
+  "subsets": [
+   "latin"
+  ],
+  "include": [
+   [
+    "<Body font>",
+    "400"
+   ],
+   [
+    "<Body font>",
+    "700"
+   ],
+   [
+    "<Heading font>",
+    "700"
+   ],
+   [
+    "<Display font>",
+    "800"
+   ]
+  ]
+ },
+ "sections": {
+  "grade_order": [
+   "sales",
+   "design",
+   "search",
+   "speed",
+   "trust"
+  ],
+  "search": "search",
+  "speed": "speed",
+  "legal": "trust"
+ },
+ "shots_dir": "media/shots",
+ "shots": {
+  "S1": [
+   [
+    "m-01-<what it shows>.jpg",
+    "m"
+   ],
+   [
+    "d-01-<what it shows>.jpg",
+    "d"
+   ]
+  ]
+ },
+ "speed": {
+  "fcp_s": [
+   0.0,
+   0.0
+  ],
+  "lcp_s": [
+   0.0,
+   0.0
+  ],
+  "js_mb": 0.0
+ },
+ "perf_urls": {
+  "home": "https://www.<domain>/",
+  "category": "https://www.<domain>/<category>/",
+  "product": "https://www.<domain>/<product>/"
+ },
+ "season_keywords": [
+  "<keyword 1>",
+  "<keyword 2>",
+  "<keyword 3>",
+  "<keyword 4>"
+ ],
+ "keywords": {
+  "file_prefix": "<prefix of the keyword files>",
+  "google_position_field": "position",
+  "clusters": {
+   "<cluster value in keyword-research.csv>": "<short_key>"
+  },
+  "p1_priorities": [
+   "P1"
+  ],
+  "appendix_priorities": [
+   "P2",
+   "P3"
+  ],
+  "p1_order": [
+   "<short_key>"
+  ],
+  "appendix_order": [
+   "<short_key>"
+  ],
+  "target_rules": [
+   {
+    "cluster": "<cluster value>",
+    "target": "<target_key>"
+   },
+   {
+    "contains": [
+     "<word in the keyword>"
+    ],
+    "target": "<target_key>"
+   }
+  ],
+  "target_default": "<target_key>",
+  "target_paths": {
+   "<target_key>": "/<existing path or null when the page does not exist yet>/"
+  },
+  "strengths_exclude": [],
+  "strengths_count": 25,
+  "totals": {
+   "organic_keywords": 0,
+   "top3": 0,
+   "traffic_est": 0,
+   "source": "<keyword tool> <YYYY-MM-DD>"
+  }
+ }
+}

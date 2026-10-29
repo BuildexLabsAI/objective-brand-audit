@@ -1,0 +1,281 @@
+{
+ "p1": {
+  "tea": [
+   {
+    "kw": "loose leaf tea",
+    "vol": 2400,
+    "kd": 38,
+    "prio": "P1",
+    "pos": 14,
+    "pos_src": "tool",
+    "competitor": "teahouse.example",
+    "competitor_pos": 2,
+    "target": "tea"
+   },
+   {
+    "kw": "green tea online",
+    "vol": 1300,
+    "kd": 31,
+    "prio": "P1",
+    "pos": null,
+    "pos_src": "google",
+    "competitor": "leafandcup.example",
+    "competitor_pos": 1,
+    "target": "tea"
+   }
+  ],
+  "chai": [
+   {
+    "kw": "chai tea",
+    "vol": 1900,
+    "kd": 44,
+    "prio": "P1",
+    "pos": 22,
+    "pos_src": "tool",
+    "competitor": "spicebox.example",
+    "competitor_pos": 3,
+    "target": "chai"
+   }
+  ],
+  "gifts": [
+   {
+    "kw": "tea gift box",
+    "vol": 880,
+    "kd": 27,
+    "prio": "P1",
+    "pos": 7,
+    "pos_src": "google",
+    "competitor": "giftcrate.example",
+    "competitor_pos": 1,
+    "target": "gifts"
+   }
+  ]
+ },
+ "p1_order": [
+  "tea",
+  "chai",
+  "gifts"
+ ],
+ "strengths": [
+  {
+   "kw": "pine needle tea",
+   "vol": 320,
+   "pos": 3,
+   "path": "/tea/sea-fog-green/",
+   "traffic": 41
+  },
+  {
+   "kw": "tea gift box",
+   "vol": 880,
+   "pos": 9,
+   "path": "/gifts/",
+   "traffic": 18
+  },
+  {
+   "kw": "loose leaf tea",
+   "vol": 2400,
+   "pos": 14,
+   "path": "/tea/",
+   "traffic": 11
+  },
+  {
+   "kw": "organic black tea",
+   "vol": 720,
+   "pos": 18,
+   "path": "/tea/harbor-black/",
+   "traffic": 6
+  },
+  {
+   "kw": "chai tea",
+   "vol": 1900,
+   "pos": 22,
+   "path": "/tea/lighthouse-chai/",
+   "traffic": 4
+  }
+ ],
+ "appendix": {
+  "tea": [
+   {
+    "kw": "organic black tea",
+    "vol": 720,
+    "kd": 29,
+    "prio": "P2",
+    "pos": 18,
+    "pos_src": "tool",
+    "competitor": "teahouse.example",
+    "competitor_pos": 4
+   },
+   {
+    "kw": "pine needle tea",
+    "vol": 320,
+    "kd": 12,
+    "prio": "P2",
+    "pos": 3,
+    "pos_src": "tool",
+    "competitor": "",
+    "competitor_pos": null
+   }
+  ],
+  "gifts": [
+   {
+    "kw": "tea advent calendar",
+    "vol": 1600,
+    "kd": 35,
+    "prio": "P2",
+    "pos": null,
+    "pos_src": "none",
+    "competitor": "giftcrate.example",
+    "competitor_pos": 2
+   }
+  ],
+  "chai": [
+   {
+    "kw": "chai latte powder",
+    "vol": 590,
+    "kd": 21,
+    "prio": "P3",
+    "pos": null,
+    "pos_src": "none",
+    "competitor": "spicebox.example",
+    "competitor_pos": 1
+   }
+  ],
+  "guides": [
+   {
+    "kw": "how to brew loose leaf tea",
+    "vol": 480,
+    "kd": 18,
+    "prio": "P3",
+    "pos": 27,
+    "pos_src": "tool",
+    "competitor": "teahouse.example",
+    "competitor_pos": 5
+   }
+  ]
+ },
+ "appendix_order": [
+  "tea",
+  "gifts",
+  "chai",
+  "guides"
+ ],
+ "target_paths": {
+  "tea": "/tea/",
+  "chai": "/tea/lighthouse-chai/",
+  "gifts": "/gifts/"
+ },
+ "season": {
+  "tea gift box": [
+   [
+    "2025-11",
+    1450
+   ],
+   [
+    "2025-12",
+    2100
+   ],
+   [
+    "2026-01",
+    210
+   ],
+   [
+    "2026-02",
+    190
+   ],
+   [
+    "2026-03",
+    200
+   ],
+   [
+    "2026-04",
+    230
+   ],
+   [
+    "2026-05",
+    240
+   ],
+   [
+    "2026-06",
+    220
+   ],
+   [
+    "2026-07",
+    210
+   ],
+   [
+    "2026-08",
+    260
+   ],
+   [
+    "2026-09",
+    380
+   ],
+   [
+    "2026-10",
+    620
+   ]
+  ],
+  "chai tea": [
+   [
+    "2025-11",
+    2500
+   ],
+   [
+    "2025-12",
+    2700
+   ],
+   [
+    "2026-01",
+    2300
+   ],
+   [
+    "2026-02",
+    2100
+   ],
+   [
+    "2026-03",
+    1800
+   ],
+   [
+    "2026-04",
+    1500
+   ],
+   [
+    "2026-05",
+    1200
+   ],
+   [
+    "2026-06",
+    1000
+   ],
+   [
+    "2026-07",
+    950
+   ],
+   [
+    "2026-08",
+    1100
+   ],
+   [
+    "2026-09",
+    1600
+   ],
+   [
+    "2026-10",
+    2100
+   ]
+  ]
+ },
+ "totals": {
+  "organic_keywords": 6,
+  "top3": 2,
+  "traffic_est": 152,
+  "source": "Invented keyword tool 2026-10-29"
+ },
+ "counts": {
+  "p1": 4,
+  "appendix": 5,
+  "strengths": 5,
+  "all_keywords": 10
+ }
+}

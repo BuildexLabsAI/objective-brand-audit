@@ -1,0 +1,476 @@
+{
+ "cover": {
+  "kicker": "Website audit",
+  "title": "Clearer buying, faster pages, fewer checkout surprises",
+  "subtitle": "A review of harborpine.example: what works, what interrupts purchases and how to fix it.",
+  "meta": [
+   "Prepared by: Alex Sample",
+   "29 October 2026",
+   "Sales, design, search, speed and consumer trust"
+  ]
+ },
+ "overview": {
+  "title": "The full picture",
+  "lead": "You explain what you sell, show product prices and state the free shipping threshold clearly. The buying path has problems: a late fee, an incorrect total and missing phone navigation. Search visibility needs work, main content loads slowly on phones, and the payment button and cookie notice need clearer wording and choices.",
+  "structure_note": "Each area explains what is wrong, how to fix it and what already works. Then come what to fix first, the full fix list and the keyword appendix.",
+  "grades_title": "Your grades",
+  "grades_note": "The four-step scale is Excellent, Good, Needs work and Poor.",
+  "grades": [
+   {
+    "area": "Sales and purchase path",
+    "grade": "Needs work",
+    "reason": "The small-order fee appears only at checkout and is missing from the total."
+   },
+   {
+    "area": "Design",
+    "grade": "Good",
+    "reason": "Brand colour is consistent, but phone navigation is missing and product images are placeholders."
+   },
+   {
+    "area": "Search visibility",
+    "grade": "Needs work",
+    "reason": "Green tea and chai searches have weak positions; pine needle tea already ranks well."
+   },
+   {
+    "area": "Speed",
+    "grade": "Poor",
+    "reason": "Main content takes 4.4–5.1 s to appear in the phone lab test."
+   },
+   {
+    "area": "Trust and consumer law",
+    "grade": "Needs work",
+    "reason": "The payment button needs explicit wording, and the cookie banner lacks a decline button."
+   }
+  ]
+ },
+ "sections": [
+  {
+   "id": "sales",
+   "nav": "Buying",
+   "title": "Prices, fees and the buying path",
+   "lead": "I followed the buying path through to checkout, the page where you review and place an order. I checked prices, extra charges and gift visibility. I also checked the cart, where shoppers collect items before checkout.",
+   "findings": [
+    {
+     "id": "S1",
+     "title": "The small-order fee appears too late",
+     "seen": "A 3.00 € small-order fee applies to orders under 15 €, but first appears below the checkout total. Neither the cart link nor the product cards, the home-page summaries of each tea, mention it.",
+     "why": "A charge revealed at checkout changes the price shoppers expected to pay. That can make them question the purchase and your pricing.",
+     "fix": "Show the 3.00 € fee and its 15 € threshold on product pages and in the cart.",
+     "effort": "1–2 h",
+     "owner": "Harbor & Pine + ShopBuilder",
+     "shot_caption": "The small-order fee first appears below the checkout total."
+    },
+    {
+     "id": "S2",
+     "title": "The total leaves out the fee",
+     "seen": "The order is 12.90 €, below the 15 € threshold. Checkout shows shipping of 6.90 € and a total of 19.80 €, leaving out the stated 3.00 € small-order fee.",
+     "why": "The fee notice and total contradict each other. Shoppers cannot tell what they are agreeing to pay.",
+     "fix": "Ask ShopBuilder, your shop platform provider, to include the fee in the total or remove the fee text.",
+     "effort": "platform request",
+     "owner": "ShopBuilder",
+     "shot_caption": ""
+    },
+    {
+     "id": "S3",
+     "title": "The home page has no gift section",
+     "seen": "The home page has one card per tea and no gift section. Yet “tea gift box” is your strongest priority search opportunity: position 7 in Google, with 880 searches a month.",
+     "why": "People looking for gifts have no clear gift section to follow from the home page.",
+     "fix": "Add a gift box section to the home page and link it to /gifts/.",
+     "effort": "half a day",
+     "owner": "Harbor & Pine",
+     "shot_caption": ""
+    }
+   ],
+   "works_title": "What already works",
+   "works": [
+    {
+     "title": "Clear offer and product prices",
+     "body": "The home page says “Small-batch tea from the coast” and shows a price on every product card."
+    },
+    {
+     "title": "Visible free shipping threshold",
+     "body": "Free shipping over 40 € appears in the first screen of the home page."
+    },
+    {
+     "title": "Order details stay together",
+     "body": "Checkout lists each item, shipping of 6.90 € and the displayed total on one screen."
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "nav": "Design",
+   "title": "Phone navigation and product images",
+   "lead": "I checked how the shop looks and whether shoppers can move through it on a phone. Your brand colour is consistent across pages. The missing phone menu and placeholder product images limit the experience.",
+   "findings": [
+    {
+     "id": "D1",
+     "title": "Phone shoppers cannot reach the cart link",
+     "seen": "At a phone width of 375 px, the menu is hidden and there is no menu button. The cart link cannot be reached from the home page.",
+     "why": "Shoppers lose access to the cart link while browsing on a phone. That interrupts the route to buying.",
+     "fix": "Ask ShopBuilder to add a phone menu button that opens the same links as the desktop menu.",
+     "effort": "1–2 h",
+     "owner": "ShopBuilder",
+     "shot_caption": "The phone home page has no menu button or reachable cart link."
+    },
+    {
+     "id": "D2",
+     "title": "Product images do not show the tea",
+     "seen": "The product images are flat colour placeholders. They do not show photographs of the tea.",
+     "why": "Shoppers cannot see the product they are considering. That makes it harder to judge what they will receive.",
+     "fix": "Add one real photograph of the tea to each product.",
+     "effort": "half a day",
+     "owner": "Harbor & Pine",
+     "shot_caption": ""
+    }
+   ],
+   "works_title": "What already works",
+   "works": [
+    {
+     "title": "Consistent brand colour",
+     "body": "Your brand colour, #1F5C4A, is used consistently in the header and main button on every page."
+    }
+   ]
+  },
+  {
+   "id": "search",
+   "nav": "Search",
+   "title": "How shoppers find your tea",
+   "lead": "A search engine, such as Google, helps people find pages online. Your search position is where a page appears in its results. I checked visibility for tea searches and the page changes that could help shoppers find you.",
+   "findings": [
+    {
+     "id": "H1",
+     "title": "Green tea misses Google's top results",
+     "seen": "“Green tea online” has 1,300 searches a month. Your site was outside Google's top 10 when checked on 29 October 2026; leafandcup.example was first.",
+     "why": "Shoppers searching for green tea are more likely to encounter the pages above yours.",
+     "fix": "Give the green tea page a title and text that use the words people search for.",
+     "effort": "1–2 h",
+     "owner": "Harbor & Pine",
+     "shot_caption": ""
+    },
+    {
+     "id": "H2",
+     "title": "Chai appears far down the search results",
+     "seen": "In the supplied invented keyword tool, “chai tea” has 1,900 searches a month and your site is at position 22. Spicebox.example is at position 3.",
+     "why": "A low position makes the chai page harder to find when people search for that tea.",
+     "fix": "Write a chai page that names the spices and explains the brewing steps.",
+     "effort": "half a day",
+     "owner": "Harbor & Pine",
+     "shot_caption": ""
+    }
+   ],
+   "works_title": "What already works",
+   "works": [
+    {
+     "title": "Strong pine needle tea position",
+     "body": "Your site ranks 3rd for “pine needle tea”, a phrase with 320 searches a month."
+    }
+   ]
+  },
+  {
+   "id": "speed",
+   "nav": "Speed",
+   "title": "Main content arrives slowly on phones",
+   "lead": "I measured loading in a lab test, a controlled test that simulates a phone connection. It shows how long shoppers may wait for content. These measurements are separate from data collected from real visitors.",
+   "findings": [
+    {
+     "id": "T1",
+     "title": "Phones wait too long for main content",
+     "seen": "Across 3 runs, first content appeared after 2.1–2.6 s and main content after 4.4–5.1 s. The main-content measure is LCP, short for Largest Contentful Paint. The page loaded 1.8 MB of JavaScript, code the browser runs; Google's good LCP limit is 2.5 s, and above 4 s is poor.",
+     "why": "Shoppers wait several seconds before the main content appears. That delay can interrupt browsing before they reach a product.",
+     "fix": "Ask ShopBuilder to load the review widget script, the code for displaying reviews, only on product pages.",
+     "effort": "platform request",
+     "owner": "ShopBuilder",
+     "shot_caption": ""
+    }
+   ],
+   "works_title": "What already works",
+   "works": []
+  },
+  {
+   "id": "trust",
+   "nav": "Trust",
+   "title": "Clear payment wording and cookie choices",
+   "lead": "I checked the final order button and the cookie banner, the notice about small files a site stores in a visitor's browser. The button needs explicit payment wording, and visitors need a clear choice about cookies. Checkout already keeps the order details together.",
+   "findings": [
+    {
+     "id": "L1",
+     "title": "The order button does not clearly require payment",
+     "seen": "The final button says “Send order”. Article 8(2) of Directive 2011/83/EU requires wording that makes the obligation to pay clear; the EU Court of Justice said in case C-249/21 on 7 April 2022 that only the button's words count.",
+     "why": "The current wording does not meet the requirement to make payment explicit. Text elsewhere cannot make up for unclear words on the button.",
+     "fix": "Change the button to “Order with obligation to pay” or “Buy now”, and have a lawyer check the wording.",
+     "effort": "15 min",
+     "owner": "Harbor & Pine + ShopBuilder",
+     "shot_caption": ""
+    },
+    {
+     "id": "L2",
+     "title": "The cookie banner has no decline button",
+     "seen": "The cookie banner says “By using this site you accept all cookies”. It has no button to decline.",
+     "why": "Visitors are told that using the site means accepting all cookies, without a clear way to decline. That weakens trust in the choice offered.",
+     "fix": "Ask ShopBuilder to add “Accept” and “Decline” buttons of the same size, and have a lawyer check the banner against Directive 2002/58/EC.",
+     "effort": "1–2 h",
+     "owner": "ShopBuilder",
+     "shot_caption": "The cookie banner treats site use as acceptance and offers no decline button."
+    }
+   ],
+   "works_title": "What already works",
+   "works": [
+    {
+     "title": "Order details are visible together",
+     "body": "Checkout shows each item, shipping of 6.90 € and the displayed total on one screen."
+    }
+   ]
+  }
+ ],
+ "quickfix": {
+  "nav": "Fix first",
+  "title": "What to fix first",
+  "lead": "These are the fastest and most important changes drawn from the findings above. The order follows the audit's assessment of immediate sales impact and risk, with the gift section timed for the gift season.",
+  "top5_title": "Your five priorities",
+  "top5": [
+   {
+    "title": "Make the payment button explicit",
+    "body": "Change “Send order” to “Buy now” or “Order with obligation to pay”. Have a lawyer check that the wording clearly states the obligation to pay.",
+    "effort": "15 min",
+    "owner": "Harbor & Pine + ShopBuilder"
+   },
+   {
+    "title": "Show the fee and correct the total",
+    "body": "Show the 3.00 € fee for orders under 15 € on product pages and in the cart. Ask ShopBuilder to include it in the total or remove the fee text.",
+    "effort": "1–2 h + platform request",
+    "owner": "Harbor & Pine + ShopBuilder"
+   },
+   {
+    "title": "Add a menu button on phones",
+    "body": "Ask ShopBuilder to add a menu button on phones. It must open the same links, including the cart link that shoppers currently cannot reach.",
+    "effort": "1–2 h",
+    "owner": "ShopBuilder"
+   },
+   {
+    "title": "Add gifts before the gift season",
+    "body": "Add a home-page gift box section linking to /gifts/ before the gift season. “Tea gift box” already has position 7 in Google and 880 searches a month.",
+    "effort": "half a day",
+    "owner": "Harbor & Pine"
+   },
+   {
+    "title": "Reduce the wait on phones",
+    "body": "Ask ShopBuilder to load the review widget code only on product pages. Main content took 4.4–5.1 s to appear in the phone lab test.",
+    "effort": "platform request",
+    "owner": "ShopBuilder"
+   }
+  ],
+  "quick_title": "The five-minute change",
+  "quick": [
+   "Change “Send order” to “Buy now” (L1)."
+  ]
+ },
+ "speed_extra": {
+  "analogy": "Loading review code where it is not needed is like making shoppers wait while you unpack an unrelated delivery. Your test also showed a long wait for the main content.",
+  "metrics_caption": "This was my own lab test using perf.py, Playwright and Google Chrome with Lighthouse's mobile profile, which simulates a slower phone connection, across 3 runs; it is not Google's real-visitor data, which is available through Core Web Vitals, Google's measures of visitor experience, in Search Console, Google's tool for checking your site's search presence and performance."
+ },
+ "legal_extra": {
+  "disclaimer": "This report is not legal advice: I used the EU Consumer Rights Directive 2011/83/EU (https://eur-lex.europa.eu/eli/dir/2011/83/oj), the EU Court of Justice ruling in C-249/21 and Directive 2002/58/EC (https://eur-lex.europa.eu/eli/dir/2002/58/oj), with the directive sources read on 29 October 2026. Have a lawyer check the order button wording and cookie banner."
+ },
+ "fixlist": {
+  "title": "The complete fix list",
+  "lead": "Every finding becomes a task below, grouped by urgency. Each task shows the effort and who handles it; platform requests go to ShopBuilder.",
+  "groups": [
+   {
+    "label": "This week",
+    "items": [
+     {
+      "id": "L1",
+      "action": "Make the order button explicitly require payment and arrange a lawyer's check.",
+      "effort": "15 min",
+      "owner": "Harbor & Pine + ShopBuilder"
+     },
+     {
+      "id": "S1",
+      "action": "Show the small-order fee and threshold on product pages and in the cart.",
+      "effort": "1–2 h",
+      "owner": "Harbor & Pine + ShopBuilder"
+     },
+     {
+      "id": "S2",
+      "action": "Include the fee in the total or remove the fee text.",
+      "effort": "platform request",
+      "owner": "ShopBuilder"
+     },
+     {
+      "id": "D1",
+      "action": "Add a phone menu button that opens all the existing menu links.",
+      "effort": "1–2 h",
+      "owner": "ShopBuilder"
+     }
+    ]
+   },
+   {
+    "label": "Next",
+    "items": [
+     {
+      "id": "S3",
+      "action": "Add a home-page gift box section linking to /gifts/ before the gift season.",
+      "effort": "half a day",
+      "owner": "Harbor & Pine"
+     },
+     {
+      "id": "T1",
+      "action": "Load the review widget code only on product pages.",
+      "effort": "platform request",
+      "owner": "ShopBuilder"
+     },
+     {
+      "id": "L2",
+      "action": "Add equal-size cookie choice buttons and arrange a lawyer's check.",
+      "effort": "1–2 h",
+      "owner": "ShopBuilder"
+     }
+    ]
+   },
+   {
+    "label": "Then",
+    "items": [
+     {
+      "id": "D2",
+      "action": "Add one real tea photograph to each product.",
+      "effort": "half a day",
+      "owner": "Harbor & Pine"
+     },
+     {
+      "id": "H1",
+      "action": "Use shoppers' search words in the green tea page title and text.",
+      "effort": "1–2 h",
+      "owner": "Harbor & Pine"
+     },
+     {
+      "id": "H2",
+      "action": "Write a chai page naming the spices and explaining brewing steps.",
+      "effort": "half a day",
+      "owner": "Harbor & Pine"
+     }
+    ]
+   }
+  ]
+ },
+ "method": {
+  "title": "How I checked",
+  "body": "On 29 October 2026, I checked the supplied test shop in a real browser at desktop 1440×900 and phone 375×812 sizes. I followed the home page to checkout and stopped at the order button. No order was placed and no personal data was entered. Speed testing used Playwright and Google Chrome with a slowed mobile profile. Search findings used an invented keyword tool and 2 Google spot checks dated 29 October 2026. I read Directives 2011/83/EU and 2002/58/EC on EUR-Lex that day. This is not legal advice."
+ },
+ "glossary": [
+  {
+   "term": "Checkout",
+   "def": "The page where shoppers review the order and place it."
+  },
+  {
+   "term": "Cart",
+   "def": "The place where shoppers collect items before checkout."
+  },
+  {
+   "term": "Product card",
+   "def": "A short product summary showing details such as its image, name and price."
+  },
+  {
+   "term": "Search engine",
+   "def": "A service, such as Google, that helps people find pages online."
+  },
+  {
+   "term": "Search position",
+   "def": "Where a page appears in the results for a particular search."
+  },
+  {
+   "term": "Lab test",
+   "def": "A controlled test that simulates browsing conditions rather than measuring real visitors."
+  },
+  {
+   "term": "LCP",
+   "def": "Largest Contentful Paint: the loading measure used here for when the main content appears."
+  },
+  {
+   "term": "JavaScript",
+   "def": "Code the browser runs to provide page features."
+  },
+  {
+   "term": "Cookies",
+   "def": "Small files a site stores in a visitor's browser."
+  },
+  {
+   "term": "Core Web Vitals",
+   "def": "Google's measures of visitor experience, including loading speed."
+  },
+  {
+   "term": "Search Console",
+   "def": "Google's tool for checking your site's search presence and performance, including real-visitor loading measurements."
+  },
+  {
+   "term": "KD",
+   "def": "Keyword difficulty: a 0–100 estimate of how hard it is to reach Google's top 10."
+  },
+  {
+   "term": "P1, P2 and P3",
+   "def": "Keyword research priorities: P1 is highest, followed by P2, then P3."
+  }
+ ],
+ "closing": {
+  "title": "Go through it together",
+  "body": "I can go through the report with you and explain any finding. We can also review which tasks you can handle and which need ShopBuilder or a lawyer.",
+  "contact": "Alex Sample"
+ },
+ "search_extra": {
+  "totals_caption": "The invented keyword tool estimates that you rank for 6 searches, including 2 in positions 1–3, with 152 visits a month as of 29 October 2026.",
+  "strengths_title": "Searches already bringing you visitors",
+  "strengths_lead": "These searches bring you the most estimated visits now. Your strongest position is for \"pine needle tea\", while your gifts page also brings people to the shop.",
+  "strengths_cols": {
+   "kw": "Search",
+   "vol": "Monthly searches",
+   "pos": "Your position",
+   "page": "Your page",
+   "traffic": "Estimated monthly visits"
+  },
+  "strengths_note": "Positions and visits here are keyword tool estimates dated 29 October 2026. Your shop's own name is left out because people searching for it already know you.",
+  "season_title": "When gift and chai searches peak",
+  "season_caption": "In the keyword tool estimates from November 2025 to October 2026, both searches peak in December 2025. Prepare your gift and chai pages now, ahead of the next gift season.",
+  "p1_title": "Your highest priority searches",
+  "p1_lead": "These are your P1 searches, the highest priority in the keyword research, grouped by topic. Compare monthly searches, KD (keyword difficulty), your position and the listed competitor, then see which page should win the search. A lower position number means a place nearer the top; positions come from Google checks or keyword tool estimates.",
+  "kd_note": "KD means keyword difficulty: an estimate from 0–100 of how hard it is to reach Google's top 10. A missing KD is not zero.",
+  "p1_group_titles": {
+   "tea": "Tea",
+   "chai": "Chai",
+   "gifts": "Gifts and calendars"
+  },
+  "col_labels": {
+   "kw": "Search",
+   "vol": "Monthly searches",
+   "kd": "KD",
+   "pos": "Your position",
+   "comp": "Best listed competitor",
+   "target": "Page to rank"
+  },
+  "target_labels": {
+   "tea": "Tea category",
+   "chai": "Lighthouse Chai product page",
+   "gifts": "Gifts page"
+  },
+  "not_top10_label": "Outside top 10",
+  "no_data_label": "No tool position",
+  "table_note": "Monthly searches are keyword tool estimates for the target country; \"Outside top 10\" appears only for searches checked in Google on 29 October 2026. Missing tool data does not prove that you do not rank.",
+  "order_title": "Your search work in order",
+  "order": [
+   "Add a gift box section to your home page, linking to /gifts/, before the gift season.",
+   "Improve your gifts page for \"tea gift box\", where the Google check puts you at position 7.",
+   "Give your tea category a clear title and text for \"loose leaf tea\" and \"green tea online\".",
+   "Add brewing steps and the names of the spices to your Lighthouse Chai page.",
+   "Work through P2 searches, keeping what works for \"pine needle tea\".",
+   "Then review the P3 searches for chai latte powder and a loose leaf tea brewing guide."
+  ],
+  "appendix_title": "Your remaining keyword research",
+  "appendix_lead": "These are your remaining P2 and P3 searches, grouped by topic. P2 comes before P3 in the research priorities. Your shop's own name is left out because people searching for it already know you.",
+  "appendix_group_titles": {
+   "tea": "Tea",
+   "gifts": "Gifts and calendars",
+   "chai": "Chai",
+   "guides": "Brewing guides"
+  },
+  "prio_label": "Priority"
+ }
+}

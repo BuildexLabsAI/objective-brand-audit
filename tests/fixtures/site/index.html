@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Harbor &amp; Pine Tea</title>
+<style>
+  :root { --accent: #1F5C4A; --ink: #1E2A28; --muted: #5E6B68; --panel: #F3F1EA; --line: #D9D4C7; }
+  * { box-sizing: border-box; margin: 0; }
+  body { font: 16px/1.5 Georgia, serif; color: var(--ink); background: #fff; }
+  header { display: flex; justify-content: space-between; align-items: center; padding: 18px 32px; background: var(--accent); color: #fff; }
+  header b { font: 700 22px/1 Georgia, serif; letter-spacing: .02em; }
+  nav a { color: #fff; margin-left: 18px; text-decoration: none; font-size: 15px; }
+  .hero { padding: 72px 32px; background: var(--panel); }
+  .hero h1 { font-size: 44px; line-height: 1.1; max-width: 16ch; }
+  .hero p { margin-top: 14px; color: var(--muted); max-width: 46ch; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px; padding: 40px 32px; }
+  .card { border: 1px solid var(--line); padding: 18px; }
+  .card .ph { height: 120px; background: linear-gradient(135deg, #CFE0D8, #9DBFB1); margin-bottom: 12px; }
+  .card h3 { font-size: 18px; } .card p { color: var(--muted); font-size: 14px; }
+  .price { margin-top: 8px; font-weight: 700; }
+  .banner { position: fixed; left: 0; right: 0; bottom: 0; padding: 18px 32px; background: #111; color: #eee; font: 14px/1.4 system-ui, sans-serif; }
+  @media (max-width: 600px) { header { padding: 14px 16px; } nav { display: none; } .hero { padding: 40px 16px; } .hero h1 { font-size: 32px; } .grid { padding: 24px 16px; } }
+</style>
+</head>
+<body>
+<header><b>Harbor &amp; Pine</b><nav><a href="#">Tea</a><a href="#">Gifts</a><a href="checkout.html">Cart (1)</a></nav></header>
+<section class="hero"><h1>Small-batch tea from the coast</h1><p>Loose leaf tea, packed by hand. Free shipping over 40 €.</p></section>
+<section class="grid">
+  <div class="card"><div class="ph"></div><h3>Sea Fog Green</h3><p>Green tea with pine needles.</p><p class="price">12.90 €</p></div>
+  <div class="card"><div class="ph"></div><h3>Harbor Black</h3><p>Malty breakfast tea.</p><p class="price">9.50 €</p></div>
+  <div class="card"><div class="ph"></div><h3>Lighthouse Chai</h3><p>Spiced black tea.</p><p class="price">11.00 €</p></div>
+</section>
+<div class="banner">We use cookies to improve your experience. By using this site you accept all cookies.</div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+{"checked": "2026-10-29", "method": "google.com, hl=en, gl=ie, organic results, top 10",
+ "results": [
+  {"q": "green tea online", "position": null, "url": null, "tool": null, "top": ["leafandcup.example", "teahouse.example"]},
+  {"q": "tea gift box", "position": 7, "url": "/gifts/", "tool": 9, "top": ["giftcrate.example", "teahouse.example"]}
+ ]}
